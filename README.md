@@ -51,7 +51,5 @@ $app->register(new Raztud\Provider\DoctrineORMServiceProvider(), array(
 
 ```
 
-### Parameters (and their default values)
-
 ## Usage
 You can access the EntityManager by calling ``$app['db.doctrine.em']``.
