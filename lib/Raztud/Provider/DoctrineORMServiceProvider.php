@@ -4,7 +4,7 @@
  *
  */
 
-namespace NextGalleryApi\Provider;
+namespace Raztud\Provider;
 
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
