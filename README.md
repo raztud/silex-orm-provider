@@ -36,7 +36,7 @@ OR
 
 /* ... */
 
-$app->register(new NextGalleryApi\Provider\DoctrineORMServiceProvider(), array(
+$app->register(new Raztud\Provider\DoctrineORMServiceProvider(), array(
     'db.connection' => array(
         'driver'   => 'pdo_mysql',
         'user'     => '<USERNAME>',
