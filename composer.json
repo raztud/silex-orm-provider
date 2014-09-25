@@ -1,0 +1,26 @@
+{
+    "name": "raztud/doctrine-orm-provider",
+    "description": "Simple Doctrine ORM provider for Silex",
+    "keywords": ["silex", "doctrine", "orm", "database", "extension", "provider"],
+    "homepage": "https://github.com/raztud/silex-orm-provider.git",
+    "license": "MIT",
+    
+    "authors": [
+        { "name": "Razvan Tudorica", "homepage": "http://razvantudorica.com/" }
+    ],
+
+    "require": {
+        "doctrine/orm": ">2.4.*",
+        "silex/silex": ">=1.0"
+    },
+    
+    "autoload": {
+        "psr-0": { "Raztud\\Provider": "lib/" }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
