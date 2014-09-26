@@ -7,7 +7,26 @@ Summary:
 *   [Usage](#usage)
 
 ## Installation
-TODO
+
+Add the bundle to your composer.json
+
+```js
+{
+    "require": {
+        ...
+        "raztud/doctrine-orm-provider": "1.0.0"
+    }
+}
+```
+
+Tell to composer to download the bundle by running the command:
+
+``` bash
+$ php composer.phar update raztud/doctrine-orm-provider
+```
+
+Composer will install the bundle to your project's `vendor/raztud` directory.
+
 
 ## Configuration
 First of all you should have the Doctrine DBAL connection configured. For more information about configuring the DoctrineServiceProvider, I'd recommend reading [this page of the Silex documentation](http://silex.sensiolabs.org/doc/providers/doctrine.html).
