@@ -26,7 +26,7 @@ class DoctrineORMServiceProvider implements ServiceProviderInterface
     {        
         $app['db.doctrine.em'] = $app->share(function (Application $app) {
             $connectionParams = isset($app['db.connection']) ? $app['db.connection'] : array();
-            $isDevMode = isset($app['db.is_dev_mode']) ? $app['db.is_dev_mode'] : false;
+            $isDevMode = isset($app['db.is_dev_mode']) ? $app['db.is_dev_mode'] : true;
             $paths = isset($app['db.orm.entities_paths']) ? $app['db.orm.entities_paths'] : '';
 
             $config = Setup::createConfiguration($isDevMode);
