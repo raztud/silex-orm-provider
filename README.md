@@ -62,7 +62,7 @@ $app->register(new Raztud\Provider\DoctrineORMServiceProvider(), array(
         'password' => '<PASSWORD>',
         'dbname'   => '<DATABASE>',
     ),
-    'db.is_dev_mode' => false, 
+    'db.is_dev_mode' => true, 
     'db.orm.entities_paths'  => array(__DIR__ . '/../src/MyProject/Entity')
 ));
 
